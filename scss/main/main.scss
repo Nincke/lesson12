@@ -1,0 +1,59 @@
+.bg-section {
+    background: chartreuse;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    
+        .test {
+             color: $color01;
+             font-family: $font01;
+             padding: $size01;
+             &:hover {
+                 color:deeppink;
+             }
+       }
+        .test2 {
+             color:$color02;
+             padding: $size01;
+             font-family: $font02;
+             &:hover {
+                 color:black;
+             }
+       }
+    }
+}
+
+.bg-section1 {
+    background:darkmagenta;
+    margin-top: 30px;
+    .wrapper1 {
+        display: flex;
+        justify-content: space-between;
+    
+        .test3 {
+             color: $color03;
+             font-family: $font01;
+             padding: $size01;
+             &:hover {
+                 color: blue;
+             }
+       }
+        .test4 {
+             color:$color04;
+             padding: $size01;
+             font-family: $font02;
+             &:hover {
+                 color: orangered;
+             }
+       }
+    }
+}
+.bg-section2 {
+    background:darkslateblue;
+    margin-top: 30px;
+    .wrapper2 {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
